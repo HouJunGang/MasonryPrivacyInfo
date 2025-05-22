@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   EOS
 
   s.source_files = 'Masonry/*.{h,m}'
-
+  s.resource_bundles = {'Masonry' => ['Masonry/PrivacyInfo.xcprivacy']}
   s.ios.frameworks = 'Foundation', 'UIKit'
   s.tvos.frameworks = 'Foundation', 'UIKit'
   s.osx.frameworks = 'Foundation', 'AppKit'
